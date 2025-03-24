@@ -2,11 +2,11 @@
     Hey, I'm Adrian! 👋🏻
 </h2>
 
-💼&nbsp;&nbsp;&nbsp;I'm a student at <a href="https://www.iutvannes.fr/" target="_blank">IUT de Vannes</a>
+💼&nbsp;&nbsp;&nbsp;I'm a student at <a href="https://www.iutvannes.fr/" target="_blank">IUT de Vannes</a>, studying computer science and software development.
 
-🌱&nbsp;&nbsp;&nbsp;Currently, I'm learning C and C++ to enhance my skills!
+🌱&nbsp;&nbsp;&nbsp;Currently, I'm diving deep into C and C++ to expand my programming skills and build exciting projects.
 
-<!-- 📫&nbsp;&nbsp;&nbsp;Feel free to reach out via email: example@gmail.com -->
+⚙️&nbsp;&nbsp;&nbsp;My main interests are computer graphics, game mechanics, and physics engines, and I'm working on creating my own rhythm game engine!
 
 [![My Skills](https://skillicons.dev/icons?i=java,python,c,cpp,git,mysql)](https://skillicons.dev)
 
@@ -14,7 +14,7 @@
     ⬇⬇ Check out my pinned projects below ⬇⬇
 </h3>
 <p align="center">
-    <i>Note: Most of my projects are still works in progress!</i>
+    <i>Note: Most of my projects are still a work in progress! Feel free to explore and contribute!</i>
 </p>
 
 <p align="center">
