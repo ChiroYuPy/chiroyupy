@@ -4,7 +4,7 @@
 
 💼&nbsp;&nbsp;&nbsp;I'm a student at <a href="https://www.iutvannes.fr/" target="_blank">IUT de Vannes</a>, studying computer science and software development.
 
-🌱&nbsp;&nbsp;&nbsp;Currently, I'm diving deep into C and C++ to expand my programming skills and build exciting projects.
+🌱&nbsp;&nbsp;&nbsp;I'm currently focused on mastering C and C++ to enhance my programming skills and create exciting projects.
 
 ⚙️&nbsp;&nbsp;&nbsp;My main interests are computer graphics, game mechanics, and physics engines, and I'm working on creating my own rhythm game engine!
 
