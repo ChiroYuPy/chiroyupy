@@ -8,7 +8,7 @@
 
 <!-- 📫&nbsp;&nbsp;&nbsp;Feel free to reach out via email: example@gmail.com -->
 
-[![My Skills](https://skillicons.dev/icons?i=java,python,c,c++,git,mysql)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,python,c,cpp,git,mysql)](https://skillicons.dev)
 
 <h3 align="center">
     ⬇⬇ Check out my pinned projects below ⬇⬇
