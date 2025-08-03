@@ -6,7 +6,7 @@
 
 🌱&nbsp;&nbsp;&nbsp;I'm currently focused on mastering C and C++ to enhance my programming skills and create exciting projects.
 
-⚙️&nbsp;&nbsp;&nbsp;My main interests are computer graphics, game mechanics, and physics engines, and I'm working on creating my own rhythm game engine!
+⚙️&nbsp;&nbsp;&nbsp;My main interests are computer graphics, game mechanics, and physics engines, and I'm working on creating my own game engine!
 
 [![My Skills](https://skillicons.dev/icons?i=java,python,c,cpp,git,mysql)](https://skillicons.dev)
 
