@@ -1027,6 +1027,19 @@ main {
 }
 
 
+.project-description {
+    margin-left: 10px;          /* alignée avec le titre et la catégorie */
+    color: var(--light-gray);   /* couleur discrète mais lisible */
+    font-size: var(--fs-7);     /* légèrement plus petite que le titre/catégorie */
+    font-weight: var(--fw-300); /* léger */
+    line-height: 1.4;           /* espacement pour la lisibilité */
+    margin-top: 4px;            /* un petit espace au-dessus */
+    transition: var(--transition-1); /* optionnel, si tu veux un effet hover */
+}
+
+.project-item > a:hover .project-description {
+    color: var(--white-2);      /* change de couleur au survol si tu veux */
+}
 
 
 
