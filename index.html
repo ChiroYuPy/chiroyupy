@@ -7,41 +7,25 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Leroux Adrian - Personal Portfolio</title>
 
-    <!--
-      - favicon
-    -->
+    <!-- Favicon -->
     <link href="./assets/images/logo.ico" rel="shortcut icon" type="image/x-icon">
 
-    <!--
-      - custom css link
-    -->
+    <!-- CSS -->
     <link href="./assets/css/style.css" rel="stylesheet">
 
-    <!--
-      - google font link
-    -->
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-<!--
-  - #MAIN
--->
-
 <main>
 
-    <!--
-      - #SIDEBAR
-    -->
-
+    <!-- SIDEBAR -->
     <aside class="sidebar" data-sidebar>
 
-        <!-- === Profil court === -->
         <div class="sidebar-info">
-
             <figure class="avatar-box">
                 <img src="./assets/images/my-avatar.png" alt="Photo de profil d’Adrian Leroux" width="80" loading="lazy">
             </figure>
@@ -55,20 +39,14 @@
                 <span>Afficher les contacts</span>
                 <ion-icon name="chevron-down"></ion-icon>
             </button>
-
         </div>
 
-        <!-- === Infos détaillées === -->
         <div class="sidebar-info_more">
-
             <div class="separator"></div>
 
             <ul class="contacts-list">
-
                 <li class="contact-item">
-                    <div class="icon-box">
-                        <ion-icon name="mail-outline"></ion-icon>
-                    </div>
+                    <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
                     <div class="contact-info">
                         <p class="contact-title">Email</p>
                         <a href="mailto:adrian.leroux.pro@gmail.com" class="contact-link">adrian.leroux.pro@gmail.com</a>
@@ -76,9 +54,7 @@
                 </li>
 
                 <li class="contact-item">
-                    <div class="icon-box">
-                        <ion-icon name="phone-portrait-outline"></ion-icon>
-                    </div>
+                    <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
                     <div class="contact-info">
                         <p class="contact-title">Téléphone</p>
                         <a href="tel:+33695679136" class="contact-link">06 95 67 91 36</a>
@@ -86,9 +62,7 @@
                 </li>
 
                 <li class="contact-item">
-                    <div class="icon-box">
-                        <ion-icon name="calendar-outline"></ion-icon>
-                    </div>
+                    <div class="icon-box"><ion-icon name="calendar-outline"></ion-icon></div>
                     <div class="contact-info">
                         <p class="contact-title">Date de naissance</p>
                         <time datetime="2006-11-02">2 novembre 2006</time>
@@ -96,20 +70,16 @@
                 </li>
 
                 <li class="contact-item">
-                    <div class="icon-box">
-                        <ion-icon name="location-outline"></ion-icon>
-                    </div>
+                    <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
                     <div class="contact-info">
                         <p class="contact-title">Localisation</p>
                         <address>Vannes, France</address>
                     </div>
                 </li>
-
             </ul>
 
             <div class="separator"></div>
 
-            <!-- === Réseaux sociaux === -->
             <ul class="social-list">
                 <li class="social-item">
                     <a href="https://www.linkedin.com/in/adrian-leroux-106187341"
@@ -126,214 +96,135 @@
                     </a>
                 </li>
             </ul>
-
         </div>
 
     </aside>
 
-
-    <!--
-      - #main-content
-    -->
-
+    <!-- MAIN CONTENT -->
     <div class="main-content">
 
-        <!--
-          - #NAVBAR
-        -->
-
+        <!-- NAVBAR -->
         <nav class="navbar">
-
             <ul class="navbar-list">
-
-                <li class="navbar-item">
-                    <button class="navbar-link  active" data-nav-link>About</button>
-                </li>
-
-                <li class="navbar-item">
-                    <button class="navbar-link" data-nav-link>Resume</button>
-                </li>
-
-                <li class="navbar-item">
-                    <button class="navbar-link" data-nav-link>Portfolio</button>
-                </li>
-
+                <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
             </ul>
-
         </nav>
 
-
-        <!--
-          - #ABOUT
-        -->
-
-        <article class="about  active" data-page="about">
-
+        <!-- ABOUT -->
+        <article class="about active" data-page="about">
             <header>
                 <h2 class="h2 article-title">About me</h2>
             </header>
-
             <section class="about-text">
                 <p>
                     Je suis étudiant en <strong>BUT Informatique</strong> à l'IUT de Vannes, passionné par le développement logiciel, la programmation graphique et la création de moteurs de jeu.
                 </p>
-
                 <p>
                     Je suis actuellement à la recherche d'un apprentissage pour approfondir mes compétences et participer à des projets concrets et innovants.
                 </p>
             </section>
 
-            <!--
-              - service
-            -->
-
             <section class="service">
-
-                <h3 class="h3 service-title">What i'm doing</h3>
-
+                <h3 class="h3 service-title">What I'm doing</h3>
                 <ul class="service-list">
 
                     <li class="service-item">
-
                         <div class="service-icon-box">
-                            <img alt="design icon" src="./assets/images/icon-design.svg
-                " width="40">
+                            <img alt="design icon" src="./assets/images/icon-design.svg" width="40">
                         </div>
-
                         <div class="service-content-box">
                             <h4 class="h4 service-item-title">Graphics Programming</h4>
-
                             <p class="service-item-text">
                                 Je développe des programmes graphiques et des moteurs de jeu en C++ et OpenGL pour créer des expériences visuelles immersives.
                             </p>
                         </div>
-
                     </li>
 
                     <li class="service-item">
-
                         <div class="service-icon-box">
                             <img alt="Web development icon" src="./assets/images/icon-dev.svg" width="40">
                         </div>
-
                         <div class="service-content-box">
                             <h4 class="h4 service-item-title">Web development</h4>
-
                             <p class="service-item-text">
-                                Je conçois des sites et applications web responsives avec HTML, CSS et JavaScript, en mettant l’accent sur la qualité du code et l’expérience utilisateur.
+                                Je conçois des sites et applications web responsives avec HTML, CSS et JavaScript.
                             </p>
                         </div>
-
                     </li>
 
                     <li class="service-item">
-
                         <div class="service-icon-box">
                             <img alt="mobile app icon" src="./assets/images/icon-app.svg" width="40">
                         </div>
-
                         <div class="service-content-box">
                             <h4 class="h4 service-item-title">Mobile apps</h4>
-
                             <p class="service-item-text">
-                                Je développe des applications mobiles pour iOS et Android avec des interfaces intuitives et des performances optimisées.
+                                Développement d'applications mobiles pour iOS et Android avec interfaces intuitives et performances optimisées.
                             </p>
                         </div>
-
                     </li>
 
                 </ul>
-
             </section>
-
         </article>
 
-        <!--
-          - #RESUME
-        -->
-
+        <!-- RESUME -->
         <article class="resume" data-page="resume">
 
             <header>
                 <h2 class="h2 article-title">Resume</h2>
             </header>
 
-            <section class="timeline">
-
-                <div class="title-wrapper">
-                    <div class="icon-box">
-                        <ion-icon name="book-outline"></ion-icon>
+            <!-- Timeline templates -->
+            <template id="timeline-section-template">
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3"></h3>
                     </div>
+                    <ol class="timeline-list"></ol>
+                </section>
+            </template>
 
-                    <h3 class="h3">Education</h3>
-                </div>
+            <template id="timeline-item-template">
+                <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title"></h4>
+                    <span></span>
+                    <p class="timeline-text"></p>
+                </li>
+            </template>
 
-                <ol class="timeline-list">
-
-                    <li class="timeline-item">
-                        <h4 class="h4 timeline-item-title">IUT de Vannes – BUT Informatique</h4>
-                        <span>2024 — Aujourd'hui</span>
-                        <p class="timeline-text">
-                            Formation en informatique générale : développement logiciel, algorithmes, programmation graphique et conception de projets.
-                        </p>
-                    </li>
-
-                    <li class="timeline-item">
-                        <h4 class="h4 timeline-item-title">Lycée Maupertuis de Saint-Malo</h4>
-                        <span>2021 — 2024</span>
-                        <p class="timeline-text">
-                            Formation scientifique avec un accent sur les mathématiques et la logique, base solide pour l’informatique.
-                        </p>
-                    </li>
-
-                </ol>
-
-            </section>
-
-            <section class="timeline">
-
-                <div class="title-wrapper">
-                    <div class="icon-box">
-                        <ion-icon name="book-outline"></ion-icon>
-                    </div>
-
-                    <h3 class="h3">Experiences</h3>
-                </div>
-
-                <ol class="timeline-list">
-
-                    <li class="timeline-item">
-                        <h4 class="h4 timeline-item-title">Java Developer – Projet serveur RPG Minecraft</h4>
-                        <span>2022 — 2024</span>
-                        <p class="timeline-text">
-                            Développement de plugins Java pour gérer les joueurs, les mécaniques du jeu et l’intégration avec le site web du serveur.
-                        </p>
-                    </li>
-
-                </ol>
-
-            </section>
-
+            <!-- Section compétences (toujours en dernier) -->
             <section class="skill">
                 <h3 class="h3 skills-title">Compétences</h3>
-                <ul id="skills-list" class="skills-list content-card">
-                    <!-- Les compétences seront injectées ici -->
-                </ul>
+                <ul id="skills-list" class="skills-list content-card"></ul>
             </section>
+
+            <template id="skill-template">
+                <li class="skills-item">
+                    <div class="title-wrapper">
+                        <h5 class="h5"></h5>
+                        <data></data>
+                    </div>
+                    <div class="skill-progress-bg">
+                        <div class="skill-progress-fill" data-level=""></div>
+                    </div>
+                </li>
+            </template>
 
         </article>
 
-
-        <!--
-          - #PORTFOLIO
-        -->
-
+        <!-- PORTFOLIO -->
         <article class="portfolio" data-page="portfolio">
             <header>
                 <h2 class="h2 article-title">Portfolio</h2>
             </header>
-
             <section class="projects">
+
                 <ul class="filter-list">
                     <li class="filter-item"><button class="active" data-filter-btn>Tous</button></li>
                     <li class="filter-item"><button data-filter-btn>Jeux</button></li>
@@ -348,7 +239,6 @@
                         <span class="select-value" data-select-value>Sélectionner une catégorie</span>
                         <span class="select-icon"><ion-icon name="chevron-down"></ion-icon></span>
                     </button>
-
                     <ul class="select-list" role="listbox">
                         <li class="select-item"><button data-select-item>Tous</button></li>
                         <li class="select-item"><button data-select-item>Jeux</button></li>
@@ -359,164 +249,35 @@
                     </ul>
                 </div>
 
-                <ul class="project-list">
+                <ul class="project-list"></ul>
 
-                    <!-- Kinetica -->
-                    <li class="project-item active" data-filter-item data-category="bas niveau">
-                        <a href="https://github.com/ChiroYuPy/Kinetica" target="_blank" rel="noopener noreferrer">
-                            <figure class="project-img">
-                                <div class="project-item-icon-box">
-                                    <ion-icon name="eye-outline"></ion-icon>
-                                </div>
-                                <img src="assets/images/project-kinetica.png" alt="Kinetica - moteur physique 2D/3D" loading="lazy">
-                            </figure>
-                            <h3 class="project-title">Kinetica</h3>
-                            <p class="project-category">Bas niveau</p>
-                            <p class="project-description">Moteur physique 2D/3D performant pour la simulation de rigid bodies.</p>
-                            <div class="project-tags">
-                                <span class="tag">C++</span>
-                                <span class="tag">Algorithmie</span>
-                            </div>
-                        </a>
-                    </li>
-
-                    <!-- Matter -->
-                    <li class="project-item active" data-filter-item data-category="simulations">
-                        <a href="https://github.com/ChiroYuPy/MatterPy" target="_blank" rel="noopener noreferrer">
-                            <figure class="project-img">
-                                <div class="project-item-icon-box">
-                                    <ion-icon name="eye-outline"></ion-icon>
-                                </div>
-                                <img src="assets/images/project-matter.png" alt="MatterPy - moteur physique Python" loading="lazy">
-                            </figure>
-                            <h3 class="project-title">MatterPy</h3>
-                            <p class="project-category">Simulations</p>
-                            <p class="project-description">Moteur physique léger en Python pour expériences et visualisations.</p>
-                            <div class="project-tags">
-                                <span class="tag">Python</span>
-                                <span class="tag">Simulation</span>
-                            </div>
-                        </a>
-                    </li>
-
-                    <!-- AshenEngine -->
-                    <li class="project-item active" data-filter-item data-category="bas niveau">
-                        <a href="https://github.com/ChiroYuPy/AshenEngine" target="_blank" rel="noopener noreferrer">
-                            <figure class="project-img">
-                                <div class="project-item-icon-box">
-                                    <ion-icon name="eye-outline"></ion-icon>
-                                </div>
-                                <img src="assets/images/project-ashen.png" alt="AshenEngine - moteur de rendu 2D/3D" loading="lazy">
-                            </figure>
-                            <h3 class="project-title">AshenEngine</h3>
-                            <p class="project-category">Bas niveau</p>
-                            <p class="project-description">Moteur de rendu 2D/3D unifié, abstrait des API graphiques et systèmes de fenêtres.</p>
-                            <div class="project-tags">
-                                <span class="tag">C++</span>
-                                <span class="tag">OpenGL</span>
-                                <span class="tag">3D</span>
-                            </div>
-                        </a>
-                    </li>
-
-                    <!-- Voxelity -->
-                    <li class="project-item active" data-filter-item data-category="jeux">
-                        <a href="https://github.com/ChiroYuPy/AshenEngine/tree/master/Voxelity" target="_blank" rel="noopener noreferrer">
-                            <figure class="project-img">
-                                <div class="project-item-icon-box">
-                                    <ion-icon name="eye-outline"></ion-icon>
-                                </div>
-                                <img src="assets/images/project-voxelity.png" alt="Voxelity - jeu voxel 3D" loading="lazy">
-                            </figure>
-                            <h3 class="project-title">Voxelity</h3>
-                            <p class="project-category">Jeux</p>
-                            <p class="project-description">Jeu voxel 3D moddable et performant avec génération procédurale et rendu optimisé. Basé sur AshenEngine.</p>
-                            <div class="project-tags">
-                                <span class="tag">C++</span>
-                                <span class="tag">OpenGL</span>
-                                <span class="tag">3D</span>
-                            </div>
-                        </a>
-                    </li>
-
-                    <!-- ResQ360 -->
-                    <li class="project-item active" data-filter-item data-category="applications">
-                        <a href="https://github.com/ChiroYuPy/ResQ360" target="_blank" rel="noopener noreferrer">
-                            <figure class="project-img">
-                                <div class="project-item-icon-box">
-                                    <ion-icon name="eye-outline"></ion-icon>
-                                </div>
-                                <img src="assets/images/project-resq360.png" alt="ResQ360 - gestion des interventions d'urgence" loading="lazy">
-                            </figure>
-                            <h3 class="project-title">ResQ360</h3>
-                            <p class="project-category">Applications</p>
-                            <p class="project-description">Application de gestion des interventions d'urgence avec géolocalisation, notifications et tableaux de bord analytiques.</p>
-                            <div class="project-tags">
-                                <span class="tag">Java</span>
-                                <span class="tag">JavaFX</span>
-                                <span class="tag">SQL</span>
-                            </div>
-                        </a>
-                    </li>
-
-                    <!-- Minecraft RPG Server -->
-                    <li class="project-item active" data-filter-item data-category="jeux">
-                        <a href="https://github.com/ChiroYuPy/MinecraftRPG" target="_blank" rel="noopener noreferrer">
-                            <figure class="project-img">
-                                <div class="project-item-icon-box">
-                                    <ion-icon name="eye-outline"></ion-icon>
-                                </div>
-                                <img src="assets/images/project-minecraft.png" alt="Minecraft RPG Server - plugins Java" loading="lazy">
-                            </figure>
-                            <h3 class="project-title">Minecraft RPG Server</h3>
-                            <p class="project-category">Jeux</p>
-                            <p class="project-description">Suite de plugins Java pour serveur Minecraft : classes, quêtes, économie et API REST.</p>
-                            <div class="project-tags">
-                                <span class="tag">Java</span>
-                                <span class="tag">Spigot API</span>
-                                <span class="tag">MySQL</span>
-                            </div>
-                        </a>
-                    </li>
-
-                    <!-- Portfolio -->
-                    <li class="project-item active" data-filter-item data-category="web">
-                        <a href="#" onclick="return false;">
-                            <figure class="project-img">
-                                <div class="project-item-icon-box">
-                                    <ion-icon name="eye-outline"></ion-icon>
-                                </div>
-                                <img src="assets/images/project-portfolio.png" alt="Portfolio personnel" loading="lazy">
-                            </figure>
-                            <h3 class="project-title">Portfolio Personnel</h3>
-                            <p class="project-category">Web</p>
-                            <p class="project-description">Site portfolio responsive avec mode sombre et design moderne épuré.</p>
-                            <div class="project-tags">
-                                <span class="tag">HTML</span>
-                                <span class="tag">CSS</span>
-                                <span class="tag">JavaScript</span>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
             </section>
         </article>
 
-    </div>
+        <template id="project-template">
+            <li class="project-item" data-filter-item>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+                        <img src="" alt="" loading="lazy">
+                    </figure>
+                    <h3 class="project-title"></h3>
+                    <p class="project-category"></p>
+                    <p class="project-description"></p>
+                    <div class="project-tags"></div>
+                </a>
+            </li>
+        </template>
 
+    </div>
 </main>
 
-<!--
-  - custom js link
--->
 <script src="./assets/js/script.js"></script>
 
-<!--
-  - ionicon link
--->
-<script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" type="module"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
-
 </html>

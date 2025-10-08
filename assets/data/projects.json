@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Kinetica",
+    "category": "bas niveau",
+    "description": "Moteur physique 2D/3D performant pour la simulation de rigid bodies.",
+    "image": "assets/images/project-kinetica.png",
+    "tags": ["C++", "Algorithmie"],
+    "link": "https://github.com/ChiroYuPy/Kinetica"
+  },
+  {
+    "title": "MatterPy",
+    "category": "simulations",
+    "description": "Moteur physique léger en Python pour expériences et visualisations.",
+    "image": "assets/images/project-matter.png",
+    "tags": ["Python", "Simulation"],
+    "link": "https://github.com/ChiroYuPy/MatterPy"
+  },
+  {
+    "title": "AshenEngine",
+    "category": "bas niveau",
+    "description": "Moteur de rendu 2D/3D unifié, abstrait des API graphiques et systèmes de fenêtres.",
+    "image": "assets/images/project-ashen.png",
+    "tags": ["C++", "OpenGL", "3D"],
+    "link": "https://github.com/ChiroYuPy/AshenEngine"
+  },
+  {
+    "title": "Voxelity",
+    "category": "jeux",
+    "description": "Jeu voxel 3D moddable et performant avec génération procédurale et rendu optimisé. Basé sur AshenEngine.",
+    "image": "assets/images/project-voxelity.png",
+    "tags": ["C++", "OpenGL", "3D"],
+    "link": "https://github.com/ChiroYuPy/AshenEngine/tree/master/Voxelity"
+  },
+  {
+    "title": "ResQ360",
+    "category": "applications",
+    "description": "Application de gestion des interventions d'urgence avec géolocalisation, notifications et tableaux de bord analytiques.",
+    "image": "assets/images/project-resq360.png",
+    "tags": ["Java", "JavaFX", "SQL"],
+    "link": "https://github.com/ChiroYuPy/ResQ360"
+  },
+  {
+    "title": "Minecraft RPG Server",
+    "category": "jeux",
+    "description": "Suite de plugins Java pour serveur Minecraft : classes, quêtes, économie et API REST.",
+    "image": "assets/images/project-minecraft.png",
+    "tags": ["Java", "Spigot API", "MySQL"],
+    "link": "https://github.com/ChiroYuPy/MinecraftRPG"
+  },
+  {
+    "title": "Portfolio Personnel",
+    "category": "web",
+    "description": "Site portfolio responsive avec mode sombre et design moderne épuré.",
+    "image": "assets/images/project-portfolio.png",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "link": "#"
+  },
+  {
+    "title": "Rythial",
+    "category": "web",
+    "description": "Jeu de rythme fait en python a l'aide de pygame",
+    "image": "assets/images/project-rythial.png",
+    "tags": ["Python"],
+    "link": "#"
+  }
+]

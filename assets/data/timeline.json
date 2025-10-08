@@ -1,0 +1,29 @@
+{
+  "timeline": [
+    {
+      "title": "Education",
+      "items": [
+        {
+          "title": "IUT de Vannes – BUT Informatique",
+          "period": "2024 — Aujourd'hui",
+          "description": "Formation en informatique générale : développement logiciel, algorithmes, programmation graphique et conception de projets."
+        },
+        {
+          "title": "Lycée Maupertuis de Saint-Malo",
+          "period": "2021 — 2024",
+          "description": "Formation scientifique avec un accent sur les mathématiques et la logique, base solide pour l’informatique."
+        }
+      ]
+    },
+    {
+      "title": "Experiences",
+      "items": [
+        {
+          "title": "Java Developer – Projet serveur RPG Minecraft",
+          "period": "2022 — 2024",
+          "description": "Développement de plugins Java pour gérer les joueurs, les mécaniques du jeu et l’intégration avec le site web du serveur."
+        }
+      ]
+    }
+  ]
+}
