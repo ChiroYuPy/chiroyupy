@@ -25,4 +25,4 @@
 ---
 
 ## 🌐 My Portfolio
-Check out my portfolio here: [Adrian's Portfolio](https://chiroyupy.github.io/chiroyupy/index.html)
+Check out my portfolio here: [ChiroYuPy's Portfolio](https://chiroyupy.github.io/chiroyupy/index.html)
