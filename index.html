@@ -1,41 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Leroux Adrian - Personal Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrian Leroux - Portfolio</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Portfolio d'Adrian Leroux, développeur étudiant passionné par la programmation graphique et les moteurs de jeu.">
+    <meta name="keywords" content="développeur, C++, Java, Python, OpenGL, portfolio">
 
     <!-- Favicon -->
-    <link href="./assets/images/logo.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
     <!-- CSS -->
-    <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 <main>
-
     <!-- SIDEBAR -->
     <aside class="sidebar" data-sidebar>
-
         <div class="sidebar-info">
             <figure class="avatar-box">
-                <img src="./assets/images/my-avatar.png" alt="Photo de profil d’Adrian Leroux" width="80" loading="lazy">
+                <img src="./assets/images/my-avatar.png" alt="Photo de profil d'Adrian Leroux" width="80" loading="lazy">
             </figure>
 
             <div class="info-content">
-                <h1 class="name" title="Adrian Leroux">Adrian Leroux</h1>
+                <h1 class="name">Adrian Leroux</h1>
                 <p class="title">Développeur étudiant</p>
             </div>
 
-            <button class="info_more-btn" data-sidebar-btn aria-expanded="false">
+            <button class="info_more-btn" data-sidebar-btn aria-expanded="false" aria-label="Afficher les contacts">
                 <span>Afficher les contacts</span>
                 <ion-icon name="chevron-down"></ion-icon>
             </button>
@@ -46,7 +48,9 @@
 
             <ul class="contacts-list">
                 <li class="contact-item">
-                    <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
+                    <div class="icon-box">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </div>
                     <div class="contact-info">
                         <p class="contact-title">Email</p>
                         <a href="mailto:adrian.leroux.pro@gmail.com" class="contact-link">adrian.leroux.pro@gmail.com</a>
@@ -54,7 +58,9 @@
                 </li>
 
                 <li class="contact-item">
-                    <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+                    <div class="icon-box">
+                        <ion-icon name="phone-portrait-outline"></ion-icon>
+                    </div>
                     <div class="contact-info">
                         <p class="contact-title">Téléphone</p>
                         <a href="tel:+33695679136" class="contact-link">06 95 67 91 36</a>
@@ -62,7 +68,9 @@
                 </li>
 
                 <li class="contact-item">
-                    <div class="icon-box"><ion-icon name="calendar-outline"></ion-icon></div>
+                    <div class="icon-box">
+                        <ion-icon name="calendar-outline"></ion-icon>
+                    </div>
                     <div class="contact-info">
                         <p class="contact-title">Date de naissance</p>
                         <time datetime="2006-11-02">2 novembre 2006</time>
@@ -70,7 +78,9 @@
                 </li>
 
                 <li class="contact-item">
-                    <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+                    <div class="icon-box">
+                        <ion-icon name="location-outline"></ion-icon>
+                    </div>
                     <div class="contact-info">
                         <p class="contact-title">Localisation</p>
                         <address>Vannes, France</address>
@@ -82,162 +92,167 @@
 
             <ul class="social-list">
                 <li class="social-item">
-                    <a href="https://www.linkedin.com/in/adrian-leroux-106187341"
-                       target="_blank" rel="noopener noreferrer"
-                       class="social-link" title="Profil LinkedIn">
+                    <a href="https://www.linkedin.com/in/adrian-leroux-106187341" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Profil LinkedIn">
                         <ion-icon name="logo-linkedin"></ion-icon>
                     </a>
                 </li>
                 <li class="social-item">
-                    <a href="https://github.com/ChiroYuPy"
-                       target="_blank" rel="noopener noreferrer"
-                       class="social-link" title="Profil GitHub">
+                    <a href="https://github.com/ChiroYuPy" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Profil GitHub">
                         <ion-icon name="logo-github"></ion-icon>
                     </a>
                 </li>
             </ul>
         </div>
-
     </aside>
 
     <!-- MAIN CONTENT -->
     <div class="main-content">
-
         <!-- NAVBAR -->
         <nav class="navbar">
             <ul class="navbar-list">
-                <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
-                <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
-                <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+                <li class="navbar-item">
+                    <button class="navbar-link active" data-nav-link="about">À propos</button>
+                </li>
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link="resume">CV</button>
+                </li>
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link="project">Projects</button>
+                </li>
             </ul>
         </nav>
 
         <!-- ABOUT -->
         <article class="about active" data-page="about">
             <header>
-                <h2 class="h2 article-title">About me</h2>
+                <h2 class="h2 article-title">À propos de moi</h2>
             </header>
+
             <section class="about-text">
                 <p>
-                    Je suis étudiant en <strong>BUT Informatique</strong> à l'IUT de Vannes, passionné par le développement logiciel, la programmation graphique et la création de moteurs de jeu.
+                    Je suis étudiant en <strong>BUT Informatique</strong> à l'IUT de Vannes, passionné par le développement logiciel,
+                    la programmation graphique et la création de moteurs de jeu.
                 </p>
                 <p>
-                    Je suis actuellement à la recherche d'un apprentissage pour approfondir mes compétences et participer à des projets concrets et innovants.
+                    Mon parcours est orienté vers le développement bas niveau et la création d'outils performants.
+                    Je m'intéresse particulièrement aux moteurs de rendu 3D, aux simulations physiques et à l'optimisation de code.
+                </p>
+                <p>
+                    Je suis actuellement à la recherche d'un <strong>apprentissage</strong> pour approfondir mes compétences
+                    et participer à des projets concrets et innovants.
                 </p>
             </section>
 
             <section class="service">
-                <h3 class="h3 service-title">What I'm doing</h3>
+                <h3 class="h3 service-title">Mes domaines d'expertise</h3>
                 <ul class="service-list">
-
                     <li class="service-item">
                         <div class="service-icon-box">
-                            <img alt="design icon" src="./assets/images/icon-design.svg" width="40">
+                            <ion-icon name="code-slash-outline"></ion-icon>
                         </div>
                         <div class="service-content-box">
-                            <h4 class="h4 service-item-title">Graphics Programming</h4>
+                            <h4 class="h4 service-item-title">Programmation graphique</h4>
                             <p class="service-item-text">
-                                Je développe des programmes graphiques et des moteurs de jeu en C++ et OpenGL pour créer des expériences visuelles immersives.
+                                Développement de moteurs de rendu 2D/3D en C++ et OpenGL, avec optimisation des performances
+                                et gestion de la mémoire.
                             </p>
                         </div>
                     </li>
 
                     <li class="service-item">
                         <div class="service-icon-box">
-                            <img alt="Web development icon" src="./assets/images/icon-dev.svg" width="40">
+                            <ion-icon name="cube-outline"></ion-icon>
                         </div>
                         <div class="service-content-box">
-                            <h4 class="h4 service-item-title">Web development</h4>
+                            <h4 class="h4 service-item-title">Moteurs physiques</h4>
                             <p class="service-item-text">
-                                Je conçois des sites et applications web responsives avec HTML, CSS et JavaScript.
+                                Création de moteurs de simulation physique pour rigid bodies, avec détection de collisions
+                                et résolution de contraintes.
                             </p>
                         </div>
                     </li>
 
                     <li class="service-item">
                         <div class="service-icon-box">
-                            <img alt="mobile app icon" src="./assets/images/icon-app.svg" width="40">
+                            <ion-icon name="desktop-outline"></ion-icon>
                         </div>
                         <div class="service-content-box">
-                            <h4 class="h4 service-item-title">Mobile apps</h4>
+                            <h4 class="h4 service-item-title">Applications de bureau</h4>
                             <p class="service-item-text">
-                                Développement d'applications mobiles pour iOS et Android avec interfaces intuitives et performances optimisées.
+                                Développement d'applications complètes avec interfaces utilisateur modernes
+                                (JavaFX, Python) et bases de données.
                             </p>
                         </div>
                     </li>
 
+                    <li class="service-item">
+                        <div class="service-icon-box">
+                            <ion-icon name="globe-outline"></ion-icon>
+                        </div>
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Développement web</h4>
+                            <p class="service-item-text">
+                                Conception de sites et applications web responsives avec HTML, CSS, JavaScript
+                                et frameworks modernes.
+                            </p>
+                        </div>
+                    </li>
                 </ul>
             </section>
         </article>
 
         <!-- RESUME -->
         <article class="resume" data-page="resume">
-
             <header>
-                <h2 class="h2 article-title">Resume</h2>
+                <h2 class="h2 article-title">Curriculum Vitae</h2>
             </header>
 
-            <!-- Timeline templates -->
-            <template id="timeline-section-template">
-                <section class="timeline">
-                    <div class="title-wrapper">
-                        <div class="icon-box">
-                            <ion-icon name="book-outline"></ion-icon>
-                        </div>
-                        <h3 class="h3"></h3>
-                    </div>
-                    <ol class="timeline-list"></ol>
-                </section>
-            </template>
+            <!-- Timeline dynamique chargée via JS -->
+            <div id="timeline-container"></div>
 
-            <template id="timeline-item-template">
-                <li class="timeline-item">
-                    <h4 class="h4 timeline-item-title"></h4>
-                    <span></span>
-                    <p class="timeline-text"></p>
-                </li>
-            </template>
-
-            <!-- Section compétences (toujours en dernier) -->
+            <!-- Compétences -->
             <section class="skill">
-                <h3 class="h3 skills-title">Compétences</h3>
+                <h3 class="h3 skills-title">Compétences techniques</h3>
                 <ul id="skills-list" class="skills-list content-card"></ul>
             </section>
-
-            <template id="skill-template">
-                <li class="skills-item">
-                    <div class="title-wrapper">
-                        <h5 class="h5"></h5>
-                        <data></data>
-                    </div>
-                    <div class="skill-progress-bg">
-                        <div class="skill-progress-fill" data-level=""></div>
-                    </div>
-                </li>
-            </template>
-
         </article>
 
         <!-- PORTFOLIO -->
-        <article class="portfolio" data-page="portfolio">
+        <article class="project" data-page="project">
             <header>
                 <h2 class="h2 article-title">Portfolio</h2>
             </header>
-            <section class="projects">
 
+            <section class="projects">
+                <!-- Filtres desktop -->
                 <ul class="filter-list">
-                    <li class="filter-item"><button class="active" data-filter-btn>Tous</button></li>
-                    <li class="filter-item"><button data-filter-btn>Jeux</button></li>
-                    <li class="filter-item"><button data-filter-btn>Simulations</button></li>
-                    <li class="filter-item"><button data-filter-btn>Bas niveau</button></li>
-                    <li class="filter-item"><button data-filter-btn>Applications</button></li>
-                    <li class="filter-item"><button data-filter-btn>Web</button></li>
+                    <li class="filter-item">
+                        <button class="active" data-filter-btn>Tous</button>
+                    </li>
+                    <li class="filter-item">
+                        <button data-filter-btn>Jeux</button>
+                    </li>
+                    <li class="filter-item">
+                        <button data-filter-btn>Simulations</button>
+                    </li>
+                    <li class="filter-item">
+                        <button data-filter-btn>Bas niveau</button>
+                    </li>
+                    <li class="filter-item">
+                        <button data-filter-btn>Applications</button>
+                    </li>
+                    <li class="filter-item">
+                        <button data-filter-btn>Web</button>
+                    </li>
                 </ul>
 
+                <!-- Select mobile -->
                 <div class="filter-select-box">
                     <button class="filter-select" data-select aria-haspopup="listbox" aria-expanded="false">
                         <span class="select-value" data-select-value>Sélectionner une catégorie</span>
-                        <span class="select-icon"><ion-icon name="chevron-down"></ion-icon></span>
+                        <span class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </span>
                     </button>
                     <ul class="select-list" role="listbox">
                         <li class="select-item"><button data-select-item>Tous</button></li>
@@ -249,35 +264,106 @@
                     </ul>
                 </div>
 
-                <ul class="project-list"></ul>
-
+                <!-- Liste des projets -->
+                <ul class="project-list" id="project-list"></ul>
             </section>
         </article>
-
-        <template id="project-template">
-            <li class="project-item" data-filter-item>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                    <figure class="project-img">
-                        <div class="project-item-icon-box">
-                            <ion-icon name="eye-outline"></ion-icon>
-                        </div>
-                        <img src="" alt="" loading="lazy">
-                    </figure>
-                    <h3 class="project-title"></h3>
-                    <p class="project-category"></p>
-                    <p class="project-description"></p>
-                    <div class="project-tags"></div>
-                </a>
-            </li>
-        </template>
-
     </div>
 </main>
 
-<script src="./assets/js/script.js"></script>
+<!-- MODAL PROJET -->
+<div class="modal-container" id="project-modal">
+    <div class="overlay" data-overlay></div>
+    <div class="project-modal">
+        <button class="modal-close-btn" data-modal-close aria-label="Fermer la modal">
+            <ion-icon name="close-outline"></ion-icon>
+        </button>
 
+        <div class="modal-content">
+            <div class="modal-header">
+                <img class="modal-project-img" src="" alt="">
+                <div class="modal-header-info">
+                    <h3 class="modal-title"></h3>
+                    <p class="modal-category"></p>
+                    <div class="modal-tags"></div>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                <p class="modal-description"></p>
+
+                <div class="modal-links">
+                    <a href="#" class="modal-btn" target="_blank" rel="noopener noreferrer">
+                        <ion-icon name="logo-github"></ion-icon>
+                        <span>Voir sur GitHub</span>
+                    </a>
+                </div>
+
+                <div class="modal-details">
+                    <h4>Détails techniques</h4>
+                    <div class="modal-readme"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- TEMPLATES -->
+<template id="timeline-section-template">
+    <section class="timeline">
+        <div class="title-wrapper">
+            <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3"></h3>
+        </div>
+        <ol class="timeline-list"></ol>
+    </section>
+</template>
+
+<template id="timeline-item-template">
+    <li class="timeline-item">
+        <h4 class="h4 timeline-item-title"></h4>
+        <span class="timeline-period"></span>
+        <p class="timeline-text"></p>
+    </li>
+</template>
+
+<template id="skill-template">
+    <li class="skills-item">
+        <div class="title-wrapper">
+            <h5 class="h5"></h5>
+            <data></data>
+        </div>
+        <div class="skill-progress-bg">
+            <div class="skill-progress-fill"></div>
+        </div>
+    </li>
+</template>
+
+<template id="project-template">
+    <li class="project-item active" data-filter-item data-category="">
+        <a href="#" class="project-card">
+            <figure class="project-img">
+                <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="" alt="" loading="lazy">
+            </figure>
+            <div class="project-content">
+                <h3 class="project-title"></h3>
+                <p class="project-category"></p>
+                <p class="project-description"></p>
+                <div class="project-tags"></div>
+            </div>
+        </a>
+    </li>
+</template>
+
+<!-- Scripts -->
+<script src="./assets/js/script.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
+
 </html>

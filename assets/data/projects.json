@@ -2,65 +2,77 @@
   {
     "title": "Kinetica",
     "category": "bas niveau",
-    "description": "Moteur physique 2D/3D performant pour la simulation de rigid bodies.",
+    "description": "Moteur physique 2D/3D haute performance pour la simulation de corps rigides (rigid bodies). Implémentation d'algorithmes de détection de collisions optimisés et de résolution de contraintes physiques réalistes.",
     "image": "assets/images/project-kinetica.png",
-    "tags": ["C++", "Algorithmie"],
-    "link": "https://github.com/ChiroYuPy/Kinetica"
-  },
-  {
-    "title": "MatterPy",
-    "category": "simulations",
-    "description": "Moteur physique léger en Python pour expériences et visualisations.",
-    "image": "assets/images/project-matter.png",
-    "tags": ["Python", "Simulation"],
-    "link": "https://github.com/ChiroYuPy/MatterPy"
+    "tags": ["C++", "Algorithmie", "Physique", "Optimisation"],
+    "link": "https://github.com/ChiroYuPy/Kinetica",
+    "featured": true,
+    "year": "2024"
   },
   {
     "title": "AshenEngine",
     "category": "bas niveau",
-    "description": "Moteur de rendu 2D/3D unifié, abstrait des API graphiques et systèmes de fenêtres.",
+    "description": "Moteur de rendu 2D/3D unifié avec abstraction des API graphiques (OpenGL, Vulkan) et des systèmes de fenêtrage. Architecture modulaire permettant le développement multi-plateforme avec gestion optimisée des ressources.",
     "image": "assets/images/project-ashen.png",
-    "tags": ["C++", "OpenGL", "3D"],
-    "link": "https://github.com/ChiroYuPy/AshenEngine"
+    "tags": ["C++", "OpenGL", "Vulkan", "Architecture"],
+    "link": "https://github.com/ChiroYuPy/AshenEngine",
+    "featured": true,
+    "year": "2024"
   },
   {
     "title": "Voxelity",
     "category": "jeux",
-    "description": "Jeu voxel 3D moddable et performant avec génération procédurale et rendu optimisé. Basé sur AshenEngine.",
+    "description": "Jeu de type voxel 3D moddable avec génération procédurale de terrain, système de chunks optimisé et rendu haute performance. Basé sur AshenEngine avec support de mods et multijoueur prévu.",
     "image": "assets/images/project-voxelity.png",
-    "tags": ["C++", "OpenGL", "3D"],
-    "link": "https://github.com/ChiroYuPy/AshenEngine/tree/master/Voxelity"
+    "tags": ["C++", "OpenGL", "Procédural", "3D"],
+    "link": "https://github.com/ChiroYuPy/AshenEngine/tree/master/Voxelity",
+    "featured": true,
+    "year": "2024"
   },
   {
     "title": "ResQ360",
     "category": "applications",
-    "description": "Application de gestion des interventions d'urgence avec géolocalisation, notifications et tableaux de bord analytiques.",
+    "description": "Application complète de gestion des interventions d'urgence avec géolocalisation en temps réel, système de notifications push, tableaux de bord analytiques et gestion multi-utilisateurs avec différents rôles.",
     "image": "assets/images/project-resq360.png",
-    "tags": ["Java", "JavaFX", "SQL"],
-    "link": "https://github.com/ChiroYuPy/ResQ360"
+    "tags": ["Java", "JavaFX", "SQL", "API REST"],
+    "link": "https://github.com/ChiroYuPy/ResQ360",
+    "featured": true,
+    "year": "2024"
+  },
+  {
+    "title": "MatterPy",
+    "category": "simulations",
+    "description": "Moteur physique léger développé en Python pour l'expérimentation et la visualisation de simulations physiques. Idéal pour l'apprentissage et le prototypage rapide d'algorithmes physiques.",
+    "image": "assets/images/project-matter.png",
+    "tags": ["Python", "Simulation", "Pygame"],
+    "link": "https://github.com/ChiroYuPy/MatterPy",
+    "year": "2023"
   },
   {
     "title": "Minecraft RPG Server",
     "category": "jeux",
-    "description": "Suite de plugins Java pour serveur Minecraft : classes, quêtes, économie et API REST.",
+    "description": "Suite complète de plugins Java pour serveur Minecraft : système de classes personnalisées, quêtes dynamiques, économie virtuelle avec API REST pour intégration web. Gestion avancée des joueurs et des événements.",
     "image": "assets/images/project-minecraft.png",
-    "tags": ["Java", "Spigot API", "MySQL"],
-    "link": "https://github.com/ChiroYuPy/MinecraftRPG"
+    "tags": ["Java", "Spigot API", "MySQL", "API REST"],
+    "link": "https://github.com/ChiroYuPy/MinecraftRPG",
+    "year": "2022-2024"
+  },
+  {
+    "title": "Rythial",
+    "category": "jeux",
+    "description": "Jeu de rythme développé en Python avec Pygame. Gameplay inspiré des jeux musicaux classiques avec détection précise des inputs, système de score et gestion de beatmaps personnalisées.",
+    "image": "assets/images/project-rythial.png",
+    "tags": ["Python", "Pygame", "Audio"],
+    "link": "#",
+    "year": "2023"
   },
   {
     "title": "Portfolio Personnel",
     "category": "web",
-    "description": "Site portfolio responsive avec mode sombre et design moderne épuré.",
+    "description": "Site portfolio responsive moderne avec mode sombre, design épuré et animations fluides. Architecture modulaire en JavaScript vanilla pour des performances optimales.",
     "image": "assets/images/project-portfolio.png",
-    "tags": ["HTML", "CSS", "JavaScript"],
-    "link": "#"
-  },
-  {
-    "title": "Rythial",
-    "category": "web",
-    "description": "Jeu de rythme fait en python a l'aide de pygame",
-    "image": "assets/images/project-rythial.png",
-    "tags": ["Python"],
-    "link": "#"
+    "tags": ["HTML", "CSS", "JavaScript", "Responsive"],
+    "link": "#",
+    "year": "2024"
   }
 ]
