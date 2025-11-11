@@ -1,8 +1,8 @@
 [
   {
     "title": "Kinetica",
-    "category": "bas niveau",
-    "description": "Moteur physique 2D pour la simulation de corps rigides. Implémentation d'algorithmes de détection de collisions optimisés et de résolution de contraintes physiquement réalistes.",
+    "category": "simulations",
+    "description": "Moteur physique 2D dédié à la simulation de corps rigides, intégrant des algorithmes optimisés pour la détection de collisions et une résolution réaliste des contraintes physiques.",
     "image": "assets/images/project-kinetica.png",
     "tags": ["C++", "Algorithmie", "Physique", "Optimisation"],
     "link": "https://github.com/ChiroYuPy/Kinetica",
@@ -12,7 +12,7 @@
   {
     "title": "AshenEngine",
     "category": "bas niveau",
-    "description": "Moteur de rendu 2D/3D unifié avec abstraction des API graphiques (OpenGL, Vulkan) et des systèmes de fenêtrage. Architecture modulaire permettant le développement multi-plateforme avec gestion optimisée des ressources.",
+    "description": "Moteur de rendu 2D/3D unifié avec abstraction des API graphiques (OpenGL, Vulkan) et des systèmes de fenêtrage. Architecture modulaire facilitant le développement multiplateforme et la gestion des ressources.",
     "image": "assets/images/project-ashen.png",
     "tags": ["C++", "OpenGL", "Architecture", "Programmation graphique"],
     "link": "https://github.com/ChiroYuPy/AshenEngine",
@@ -22,7 +22,7 @@
   {
     "title": "Voxelity",
     "category": "jeux",
-    "description": "Jeu de type voxel 3D moddable avec génération procédurale de terrain, rendu de monde optimisé. Utilisant AshenEngine avec support de mods prévus et intégré au moteur.",
+    "description": "Jeu voxel 3D entièrement moddable, avec génération procédurale de terrains et rendu optimisé. Conçu avec AshenEngine, il offre un support natif de mods directement intégré au moteur.",
     "image": "assets/images/project-voxelity.png",
     "tags": ["C++", "OpenGL", "Génération procédurale", "3D"],
     "link": "https://github.com/ChiroYuPy/AshenEngine/tree/master/Voxelity",
@@ -32,7 +32,7 @@
   {
     "title": "ResQ360",
     "category": "applications",
-    "description": "Application complète de gestion des interventions d'urgence avec géolocalisation en temps réel, système de notifications push, tableaux de bord analytiques et gestion multi-utilisateurs avec différents rôles.",
+    "description": "Application desktop pour la gestion des interventions d'urgence, proposant des tableaux de bord analytiques et une gestion multi-utilisateurs avec rôles personnalisés.",
     "image": "assets/images/project-resq360.png",
     "tags": ["Java", "JavaFX", "SQL", "API REST"],
     "link": "https://github.com/ChiroYuPy/ResQ360",
@@ -40,11 +40,11 @@
     "year": "2024"
   },
   {
-    "title": "Centre Resource Autisme Bretagne",
+    "title": "Centre Ressource Autisme Bretagne",
     "category": "applications",
-    "description": "Application complète de gestion des interventions d'urgence avec géolocalisation en temps réel, système de notifications push, tableaux de bord analytiques et gestion multi-utilisateurs avec différents rôles.",
+    "description": "Plateforme web dédiée à l’autisme, proposant des ressources, conseils, informations et permettant la mise en relation avec des professionnels spécialisés dans le domaine.",
     "image": "assets/images/project-hem.png",
-    "tags": ["HTML", "CSS", "JavaScript","SQL", "API REST"],
+    "tags": ["HTML", "CSS", "JavaScript", "SQL", "API REST"],
     "link": "#",
     "featured": true,
     "year": "2025-Ajd"
@@ -52,7 +52,7 @@
   {
     "title": "MatterPy",
     "category": "simulations",
-    "description": "Moteur physique léger développé en Python pour l'expérimentation et la visualisation de simulations physiques. Idéal pour l'apprentissage et le prototypage rapide d'algorithmes physiques.",
+    "description": "Moteur physique léger développé en Python pour la simulation de particules et de corps mous (softbody) simples.",
     "image": "assets/images/project-matter.png",
     "tags": ["Python", "Simulation", "Pygame"],
     "link": "https://github.com/ChiroYuPy/MatterPy",
@@ -62,7 +62,7 @@
   {
     "title": "Minecraft Plugins",
     "category": "jeux",
-    "description": "Suite de plugins Java pour serveur Minecraft pour gérer son serveur éfficacement, ajout de fonctionalités pour admin et d'autres pour joueur ",
+    "description": "Suite de plugins Java pour serveur Minecraft visant à optimiser l’administration, enrichir l’expérience des joueurs et ajouter des fonctionnalités dédiées aux administrateurs.",
     "image": "assets/images/project-minecraft.png",
     "tags": ["Java", "MySQL", "Spigot/Bukkit"],
     "link": "#",
@@ -71,20 +71,19 @@
   {
     "title": "Rythial",
     "category": "jeux",
-    "description": "Jeu de rythme développé en Python avec Pygame. Gameplay inspiré des jeux de rythme classiques avec détection précise des inputs, système de score et gestion de beatmaps personnalisées.",
+    "description": "Jeu de rythme développé en Python avec Pygame, inspiré des classiques du genre. Il propose une détection précise des entrées, un système de score avancé et une gestion de beatmaps personnalisées.",
     "image": "assets/images/project-rythial.png",
     "tags": ["Python", "Pygame", "Audio"],
     "link": "https://github.com/ChiroYuPy/Rythia",
-
     "year": "2022"
   },
   {
     "title": "Portfolio Personnel",
-    "category": "web",
-    "description": "Site portfolio simple et fonctionnel. Configuration des informations en json pour une configuration facile et rapide.",
+    "category": "applications",
+    "description": "Site portfolio simple et fonctionnel, configuré via des fichiers JSON pour une personnalisation et une gestion rapide des contenus.",
     "image": "assets/images/project-portfolio.png",
     "tags": ["HTML", "CSS", "JavaScript", "Responsive"],
     "link": "https://github.com/ChiroYuPy/chiroyupy",
-    "year": "2024"
+    "year": "2025"
   }
 ]
