@@ -69,10 +69,10 @@
     "year": "2022-2024"
   },
   {
-    "title": "Rythial",
+    "title": "Rythia",
     "category": "jeux",
     "description": "Jeu de rythme développé en Python avec Pygame, inspiré des classiques du genre. Il propose une détection précise des entrées, un système de score avancé et une gestion de beatmaps personnalisées.",
-    "image": "assets/images/project-rythial.png",
+    "image": "assets/images/project-rythia.png",
     "tags": ["Python", "Pygame", "Audio"],
     "link": "https://github.com/ChiroYuPy/Rythia",
     "year": "2022"
