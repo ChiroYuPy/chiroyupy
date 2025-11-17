@@ -1,9 +1,12 @@
 [
   { "name": "Java", "level": 85 },
-  { "name": "C/C++", "level": 80 },
-  { "name": "Python", "level": 75 },
-  { "name": "Git / VCS", "level": 70 },
+  { "name": "C/C++", "level": 85 },
+  { "name": "Python", "level": 70 },
+  { "name": "Linux", "level": 70 },
+  { "name": "Git/VCS", "level": 65 },
+  { "name": "JavaScript", "level": 65 },
   { "name": "SQL", "level": 60 },
-  { "name": "Php", "level": 60 },
-  { "name": "HTML / CSS / JS", "level": 50 }
+  { "name": "Bash", "level": 60 },
+  { "name": "PHP", "level": 55 },
+  { "name": "HTML/CSS", "level": 50 }
 ]
