@@ -6,12 +6,12 @@
         {
           "title": "IUT de Vannes – BUT Informatique",
           "period": "2024 — Aujourd'hui",
-          "description": "Formation en informatique générale : développement logiciel, algorithmes, programmation graphique et conception de projets."
+          "description": "BUT (Bachelor Universitaire de Technologie) en informatique Parcours Développement d'applications avec coloration IA"
         },
         {
           "title": "Lycée Maupertuis de Saint-Malo",
           "period": "2021 — 2024",
-          "description": "Formation scientifique avec un accent sur les mathématiques et la logique, base solide pour l’informatique."
+          "description": "Formation STI2D (Sciences et Technologies de l'ingénieur et du développement durable) spécialité SIN (Science de l'informatique et du numérique)."
         }
       ]
     },
@@ -19,9 +19,9 @@
       "title": "Experiences",
       "items": [
         {
-          "title": "Java Developer – Projet serveur RPG Minecraft",
+          "title": "Java Developer – Project Arkadia RPG ( association )",
           "period": "2022 — 2024",
-          "description": "Développement de plugins Java pour gérer les joueurs, les mécaniques du jeu et l’intégration avec le site web du serveur."
+          "description": "Développement de plugins Minecraft Java pour gérer les joueurs, les mécaniques du jeu et l’intégration avec le site web du serveur."
         }
       ]
     }
