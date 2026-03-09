@@ -1,6 +1,7 @@
 [
   { "name": "Java", "level": 85 },
-  { "name": "C/C++", "level": 85 },
+  { "name": "Rust", "level": 85 },
+  { "name": "C/C++", "level": 75 },
   { "name": "Python", "level": 70 },
   { "name": "Linux", "level": 70 },
   { "name": "Git/VCS", "level": 65 },
