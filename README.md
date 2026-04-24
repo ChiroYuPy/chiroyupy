@@ -4,11 +4,11 @@
 
 💼&nbsp;&nbsp;&nbsp;I'm a student at <a href="https://www.iutvannes.fr/" target="_blank">IUT de Vannes</a>, studying computer science and software development.
 
-🌱&nbsp;&nbsp;&nbsp;I'm currently focused on mastering C and C++ to enhance my programming skills and create exciting projects.
+🌱&nbsp;&nbsp;&nbsp;I'm currently focused on mastering C, C++, and Rust to enhance my programming skills and create exciting projects.
 
 ⚙️&nbsp;&nbsp;&nbsp;My main interests are computer graphics, game mechanics, and physics engines, and I'm working on creating my own game engine!
 
-[![My Skills](https://skillicons.dev/icons?i=java,python,c,cpp,git,mysql)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,python,c,cpp,rust,git,mysql)](https://skillicons.dev)
 
 <h3 align="center">
     ⬇⬇ Check out my pinned projects below ⬇⬇
