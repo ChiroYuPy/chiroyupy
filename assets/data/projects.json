@@ -4,7 +4,7 @@
     "category": "simulations",
     "description": "Moteur physique 2D dédié à la simulation de corps rigides, intégrant des algorithmes optimisés pour la détection de collisions et une résolution réaliste des contraintes physiques.",
     "image": "assets/images/project-kinetica.png",
-    "tags": ["C++", "Algorithmie", "Physique", "Optimisation"],
+    "tags": ["Rust", "Algorithmie", "Physique", "Optimisation"],
     "link": "https://github.com/ChiroYuPy/Kinetica",
     "featured": true,
     "year": "2024-Ajd"
@@ -40,9 +40,9 @@
     "year": "2024"
   },
   {
-    "title": "Centre Ressource Autisme Bretagne",
+    "title": "Handicap Écosystème Morbihannais",
     "category": "applications",
-    "description": "Plateforme web dédiée à l’autisme, proposant des ressources, conseils, informations et permettant la mise en relation avec des professionnels spécialisés dans le domaine.",
+    "description": "Plateforme web dédiée au handicap, proposant des ressources, conseils, informations et permettant la mise en relation avec des professionnels spécialisés dans le domaine.",
     "image": "assets/images/project-hem.png",
     "tags": ["HTML", "CSS", "JavaScript", "SQL", "API REST"],
     "link": "#",
@@ -56,17 +56,16 @@
     "image": "assets/images/project-matter.png",
     "tags": ["Python", "Simulation", "Pygame"],
     "link": "https://github.com/ChiroYuPy/MatterPy",
-    "featured": true,
     "year": "2023"
   },
   {
-    "title": "Minecraft Plugins",
+    "title": "NovaFramework",
     "category": "jeux",
-    "description": "Suite de plugins Java pour serveur Minecraft visant à optimiser l’administration, enrichir l’expérience des joueurs et ajouter des fonctionnalités dédiées aux administrateurs.",
+    "description": "Suite de plugins et framework Java modernes pour serveur Minecraft (Paper API), avec système de commandes par annotations, configuration et messages centralisés.",
     "image": "assets/images/project-minecraft.png",
-    "tags": ["Java", "MySQL", "Spigot/Bukkit"],
+    "tags": ["Java", "Paper API", "Architecture", "Minecraft"],
     "link": "#",
-    "year": "2022-2024"
+    "year": "2022-2026"
   },
   {
     "title": "Rythia",

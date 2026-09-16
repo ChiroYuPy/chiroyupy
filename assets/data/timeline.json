@@ -5,13 +5,13 @@
       "items": [
         {
           "title": "IUT de Vannes – BUT Informatique",
-          "period": "2024 — Aujourd'hui",
-          "description": "BUT (Bachelor Universitaire de Technologie) en informatique Parcours Développement d'applications avec coloration IA"
+          "period": "2024 — 2027",
+          "description": "BUT Informatique Parcours A, développement d'application avec coloration IA en 3ème année"
         },
         {
           "title": "Lycée Maupertuis de Saint-Malo",
           "period": "2021 — 2024",
-          "description": "Formation STI2D (Sciences et Technologies de l'ingénieur et du développement durable) spécialité SIN (Science de l'informatique et du numérique)."
+          "description": "Baccalauréat général STI2D (Sciences et Technologies de l'ingénieur et du développement durable), spécialité SIN (Science de l'informatique et du numérique) — Mention Bien"
         }
       ]
     },
@@ -19,9 +19,19 @@
       "title": "Experiences",
       "items": [
         {
-          "title": "Java Developer – Project Arkadia RPG ( association )",
+          "title": "Stage développement – RTsys",
+          "period": "Avril — Juin 2026",
+          "description": "Développement d'un outil d'analyse de signal audio : pipeline d'analyse du signal en Rust, affichage et interactions utilisateurs en React et WebGL."
+        },
+        {
+          "title": "Intérimaire & Job d'été",
+          "period": "Depuis 2025",
+          "description": "Missions diverses entre Saint-Malo et Dol-de-Bretagne : préparateur de commandes, magasinier, ouvrier polyvalent."
+        },
+        {
+          "title": "Java Developer – Project Arkadia RPG (association)",
           "period": "2022 — 2024",
-          "description": "Développement de plugins Minecraft Java pour gérer les joueurs, les mécaniques du jeu et l’intégration avec le site web du serveur."
+          "description": "Développement de plugins Minecraft Java pour gérer les joueurs, les mécaniques du jeu et l'intégration avec le site web du serveur."
         }
       ]
     }
