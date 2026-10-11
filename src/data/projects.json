@@ -11,7 +11,6 @@
       "Optimisation"
     ],
     "link": "https://github.com/ChiroYuPy/Kinetica",
-    "featured": true,
     "year": "2024-Ajd"
   },
   {
@@ -26,8 +25,7 @@
       "React Flow"
     ],
     "link": "#",
-    "year": "2026",
-    "featured": true
+    "year": "2026"
   },
   {
     "title": "Handicap Écosystème Morbihannais",
@@ -68,7 +66,6 @@
       "Programmation graphique"
     ],
     "link": "https://github.com/ChiroYuPy/AshenEngine",
-    "featured": true,
     "year": "2024-Ajd"
   },
   {
@@ -83,7 +80,6 @@
       "API REST"
     ],
     "link": "https://github.com/ChiroYuPy/ResQ360",
-    "featured": true,
     "year": "2024"
   },
   {
@@ -113,7 +109,6 @@
       "3D"
     ],
     "link": "https://github.com/ChiroYuPy/AshenEngine/tree/master/Voxelity",
-    "featured": true,
     "year": "2024-2025",
     "status": "Terminé"
   },
