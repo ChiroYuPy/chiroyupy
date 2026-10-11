@@ -1,0 +1,28 @@
+{
+  "paragraphs": [
+    "Je suis étudiant en BUT Informatique à l'IUT de Vannes, passionné par le développement logiciel : de la programmation graphique et des moteurs de jeu jusqu'au web et à l'architecture des applications.",
+    "Mon parcours est orienté vers le développement bas niveau et la création d'outils performants. Je m'intéresse particulièrement aux moteurs de rendu 3D, aux simulations physiques et à l'optimisation de code."
+  ],
+  "interests": [
+    {
+      "icon": "monitor",
+      "title": "Applications",
+      "text": "Desktop, mobile ou web : j'aime concevoir l'organisation interne d'une application et soigner l'expérience utilisateur, au-delà de l'interface."
+    },
+    {
+      "icon": "gamepad",
+      "title": "Jeux vidéo",
+      "text": "Des premiers jeux en Python, puis Java avec Minecraft, jusqu'à un moteur de jeu en C++."
+    },
+    {
+      "icon": "box",
+      "title": "Moteurs de jeu",
+      "text": "Comprendre le fonctionnement interne d'un moteur en en construisant un : rendu, physique, architecture."
+    },
+    {
+      "icon": "brain",
+      "title": "Intelligence artificielle",
+      "text": "Un domaine qui me passionne, avec une coloration IA dans ma troisième année de BUT."
+    }
+  ]
+}

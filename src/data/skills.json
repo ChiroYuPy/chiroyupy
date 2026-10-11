@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Systèmes & performance",
+    "icon": "cpu",
+    "text": "Langages compilés, mémoire et performance.",
+    "tags": ["Rust", "C++", "C"]
+  },
+  {
+    "title": "Web",
+    "icon": "globe",
+    "text": "Langages, bibliothèques et outils de build.",
+    "tags": ["TypeScript", "JavaScript", "HTML", "CSS", "React", "React Flow", "Vite", "Tailwind CSS"]
+  },
+  {
+    "title": "Back end & applications",
+    "icon": "database",
+    "text": "Java et Python, applications desktop et bases de données.",
+    "tags": ["Java", "JavaFX", "Python", "PostgreSQL", "SQL"]
+  },
+  {
+    "title": "Graphisme & jeux",
+    "icon": "box",
+    "text": "API de rendu, shaders et bibliothèques de jeu.",
+    "tags": ["OpenGL", "Vulkan", "WebGL", "WebGPU", "WGSL", "Pygame", "Paper API", "Spigot"]
+  },
+  {
+    "title": "Outils",
+    "icon": "terminal",
+    "text": "Versionnement, conteneurs et environnements de travail.",
+    "tags": ["Git", "GitHub", "Docker", "Linux", "Bash", "JetBrains", "Eclipse", "VS Code"]
+  }
+]
