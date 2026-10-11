@@ -6,7 +6,8 @@ export const profile = {
   phoneHref: "+33695679136",
   region: "Bretagne",
   mobility: "Vannes · Saint-Malo · mobile pour le stage",
+  cv: "CV-Adrian-Leroux.pdf",
   github: "https://github.com/ChiroYuPy",
   linkedin: "https://www.linkedin.com/in/adrian-leroux-106187341",
-  availability: "Disponible pour un stage · 25 janv. → 14 mai 2027",
+  availability: "Stage 25 janv. → 14 mai 2027 · ou alternance",
 };

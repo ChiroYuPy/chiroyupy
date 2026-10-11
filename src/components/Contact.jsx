@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Download, Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import { profile } from "../data/profile.js";
 import Reveal from "./Reveal.jsx";
 
@@ -12,11 +12,11 @@ export default function Contact() {
             <div className="relative max-w-2xl">
               <p className="text-sm font-semibold uppercase tracking-widest text-amber-300">Contact</p>
               <h2 className="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                Un stage de 16 semaines à proposer ?
+                Un stage ou une alternance à proposer ?
               </h2>
               <p className="mt-4 text-lg text-zinc-400">
-                Je cherche un stage de développement du <strong className="text-white">25 janvier au 14 mai 2027</strong>.
-                N'hésitez pas à m'écrire ou à m'appeler : je réponds vite.
+                Je cherche en priorité un stage de développement du <strong className="text-white">25 janvier au 14 mai 2027</strong>,
+                et je reste ouvert à une alternance. N'hésitez pas à m'écrire ou à m'appeler : je réponds vite.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-3">
@@ -31,6 +31,13 @@ export default function Contact() {
                   className="inline-flex items-center gap-2 rounded-full border border-white/15 px-6 py-3 font-medium text-white transition hover:border-white/40"
                 >
                   <Phone size={18} /> {profile.phone}
+                </a>
+                <a
+                  href={`${import.meta.env.BASE_URL}${profile.cv}`}
+                  download
+                  className="inline-flex items-center gap-2 rounded-full border border-white/15 px-6 py-3 font-medium text-white transition hover:border-white/40"
+                >
+                  <Download size={18} /> Télécharger mon CV
                 </a>
               </div>
 

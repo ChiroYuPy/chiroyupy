@@ -55,6 +55,7 @@ function ProjectCard({ project }) {
         </div>
         <p className="mt-1 text-xs font-medium uppercase tracking-wider text-zinc-500">
           {label(project.category)} · {formatYear(project.year)}
+          {project.status ? ` · ${project.status}` : ""}
         </p>
         <p className="mt-3 line-clamp-4 text-sm leading-relaxed text-zinc-400">{project.description}</p>
 

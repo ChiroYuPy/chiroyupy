@@ -44,6 +44,19 @@
     "note": "Projet réalisé pour une entreprise : présenté avec son accord, code non publiable."
   },
   {
+    "title": "Voxelith",
+    "category": "jeux",
+    "description": "Recréation du moteur de rendu de Minecraft en Rust, avec génération procédurale du terrain. Successeur de Voxelity.",
+    "image": "assets/images/project-voxelith.png",
+    "tags": [
+      "Rust",
+      "Rendu 3D",
+      "Génération procédurale"
+    ],
+    "link": "#",
+    "year": "2025-Ajd"
+  },
+  {
     "title": "AshenEngine",
     "category": "bas niveau",
     "description": "Moteur de rendu 2D/3D unifié avec abstraction des API graphiques (OpenGL, Vulkan) et des systèmes de fenêtrage. Architecture modulaire facilitant le développement multiplateforme et la gestion des ressources.",
@@ -74,9 +87,24 @@
     "year": "2024"
   },
   {
+    "title": "ClipLab",
+    "category": "applications",
+    "description": "Petit éditeur vidéo en Python avec une interface PySide6, développé dans le cadre d'un cours (30 heures).",
+    "image": "assets/images/project-cliplab.png",
+    "tags": [
+      "Python",
+      "PySide6",
+      "Vidéo"
+    ],
+    "link": "#",
+    "year": "2026",
+    "status": "En cours",
+    "note": "Projet de cours en cours de réalisation."
+  },
+  {
     "title": "Voxelity",
     "category": "jeux",
-    "description": "Jeu voxel 3D entièrement moddable, avec génération procédurale de terrains et rendu optimisé. Conçu avec AshenEngine, il offre un support natif de mods directement intégré au moteur.",
+    "description": "Jeu voxel 3D moddable en C++, avec génération procédurale de terrains, construit sur AshenEngine. Remplacé par Voxelith, réécrit en Rust.",
     "image": "assets/images/project-voxelity.png",
     "tags": [
       "C++",
@@ -86,7 +114,8 @@
     ],
     "link": "https://github.com/ChiroYuPy/AshenEngine/tree/master/Voxelity",
     "featured": true,
-    "year": "2024-Ajd"
+    "year": "2024-2025",
+    "status": "Terminé"
   },
   {
     "title": "MatterPy",
@@ -100,19 +129,6 @@
     ],
     "link": "https://github.com/ChiroYuPy/MatterPy",
     "year": "2023"
-  },
-  {
-    "title": "Prism",
-    "category": "bas niveau",
-    "description": "Moteur de dessin vectoriel 2D en Rust organisé en workspace (core, interpolation, draw, examples), avec une future librairie d'UI construite par-dessus.",
-    "image": "assets/images/project-prism.png",
-    "tags": [
-      "Rust",
-      "Vectoriel",
-      "Architecture"
-    ],
-    "link": "#",
-    "year": "2026"
   },
   {
     "title": "NexusArcade",

@@ -1,4 +1,4 @@
-import { ArrowRight, ChevronDown, Gamepad2, Github, Linkedin, Settings2, Sprout } from "lucide-react";
+import { ArrowRight, ChevronDown, Download, Gamepad2, Github, Linkedin, Settings2, Sprout } from "lucide-react";
 import { profile } from "../data/profile.js";
 import { imageUrl } from "../lib.js";
 
@@ -16,7 +16,7 @@ const ABOUT = [
 
 const FACTS = [
   { label: "Formation", value: "BUT Informatique", sub: "3ᵉ année · IUT de Vannes" },
-  { label: "Recherche", value: "Stage de 16 semaines", sub: "25 janv. → 14 mai 2027", live: true },
+  { label: "Recherche", value: "Stage de 16 semaines", sub: "25 janv. → 14 mai 2027 · ou alternance", live: true },
   { label: "Dernier stage", value: "RTsys", sub: "Rust · React · WebGL" },
 ];
 
@@ -58,10 +58,12 @@ export default function Hero() {
               <ArrowRight size={18} className="transition group-hover:translate-x-0.5" />
             </a>
             <a
-              href="#contact"
-              className="rounded-full border border-white/15 px-6 py-3 font-medium text-white transition hover:border-white/40"
+              href={`${import.meta.env.BASE_URL}${profile.cv}`}
+              download
+              className="inline-flex items-center gap-2 rounded-full border border-white/15 px-6 py-3 font-medium text-white transition hover:border-white/40"
             >
-              Me contacter
+              <Download size={18} />
+              Mon CV
             </a>
             <a
               href={profile.github}
