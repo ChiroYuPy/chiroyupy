@@ -16,15 +16,15 @@
   {
     "title": "ShadeFlow",
     "category": "applications",
-    "description": "Éditeur visuel de shaders WGSL par système de nœuds, avec pipeline de compilation vers une représentation intermédiaire, typage float/vecN et aperçu WebGL/WebGPU en temps réel.",
+    "description": "Éditeur visuel de shaders par système de nœuds, pour comprendre comment fonctionne un shader : aperçu en direct de chaque nœud, compilation via une représentation intermédiaire typée et code généré en GLSL, WGSL et HLSL. Fonctionne entièrement dans le navigateur.",
     "image": "assets/images/project-shadeflow.png",
     "tags": [
       "React",
       "TypeScript",
-      "WebGPU",
+      "WebGL",
       "React Flow"
     ],
-    "link": "#",
+    "link": "https://github.com/ChiroYuPy/ShadeFlow",
     "year": "2026"
   },
   {
